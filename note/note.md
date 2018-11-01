@@ -21,3 +21,26 @@
 
 #### 响应式方法
 
+
+#### 初始化方法
+
+1. 构建页面的时候加入
+
+```javascript
+const store = require('store')
+extendPage(store, {
+  //...
+})
+```
+
+2. 在页面或者组件的生命周期中加入
+
+```JavaScript
+const store = require('store')
+Component({
+  data:{},
+  create(){
+    store.init(this)
+  }
+})
+```

@@ -1,0 +1,6 @@
+<!--components/test1.wxml-->
+<view>
+  <view >component:test1</view>
+  <text>test1, {{firstName}} {{lastName}} {{fullName}}</text>
+  <view>{{number}}</view>
+</view>

@@ -1,0 +1,15 @@
+<!--pages/index.wxml-->
+<view >
+  <view >page:index</view>
+  <text>pages/index.wxml, {{firstName}} {{lastName}} {{fullName}}</text>
+</view>
+<view>
+  <test></test>
+</view>
+<navigator url="/pages/a"><button class="btn" type="primary" size="mini">jump to PageA</button></navigator>
+<navigator url="/pages/b"><button class="btn" type="primary" size="mini">jump to PageB</button></navigator>
+<view>
+  <button class="btn" type="primary" bindtap="addNumber">
+    add number: {{number}}
+  </button>
+</view>

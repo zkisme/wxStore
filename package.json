@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "westore": "https://github.com/Tencent/westore"
+  }
+}
