@@ -2,5 +2,5 @@
 <view>
   <view >component:test1</view>
   <text>test1, {{firstName}} {{lastName}} {{fullName}}</text>
-  <view>{{number}}</view>
+  <button bindtap="jian">number jian:{{number}}</button>
 </view>

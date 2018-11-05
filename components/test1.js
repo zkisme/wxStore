@@ -12,10 +12,11 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    number:null
   },
 
-  created(){
+  attached(){
+    console.log('component,', this)
     Store(this)
     console.log(this.store)
   },
@@ -24,6 +25,9 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    jian(){
+      this.store.data.number --
+      this.update()
+    }
   }
 })

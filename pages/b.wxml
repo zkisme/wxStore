@@ -1,2 +1,3 @@
 <!--pages/b.wxml-->
 <text>pages/b.wxml</text>
+<navigator url="/pages/index" open-type="redirect"><button class="btn" type="primary" size="mini">redirect to PageIndex</button></navigator>

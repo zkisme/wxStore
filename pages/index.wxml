@@ -7,7 +7,7 @@
   <test></test>
 </view>
 <navigator url="/pages/a"><button class="btn" type="primary" size="mini">jump to PageA</button></navigator>
-<navigator url="/pages/b"><button class="btn" type="primary" size="mini">jump to PageB</button></navigator>
+<navigator url="/pages/b" open-type="redirect"><button class="btn" type="primary" size="mini">redirect to PageB</button></navigator>
 <view>
   <button class="btn" type="primary" bindtap="addNumber">
     add number: {{number}}

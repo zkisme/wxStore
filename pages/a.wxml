@@ -1,2 +1,4 @@
 <!--pages/a.wxml-->
 <text>pages/a.wxml</text>
+<navigator url="/pages/index"><button class="btn" type="primary" size="mini">jump to PageIndex</button></navigator>
+
